@@ -1,0 +1,42 @@
+@media (max-width: 320px){
+    .wrapper-responsive {
+        display:block;
+    }
+    .chat-wrapper {
+        max-width: 12rem;
+    }
+    
+}
+
+@media screen and (max-width: 480px){
+   
+    .sss {
+        max-width: 12rem;
+        width:12rem;
+        color:red;
+    }
+}
+
+@media (max-width: 768px){
+    
+    
+}
+
+@media (max-width: 1024px){
+    .wrapper-responsive {
+        display:block !important;
+    }
+    .responsive-add_post {
+        display:flex;
+        justify-content: center;
+    }
+    .responsive-search_member {
+        display:flex ; 
+        justify-content: center;
+    }    
+}
+
+@media (min-width: 1280px){
+   
+}
+
