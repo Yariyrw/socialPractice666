@@ -12,12 +12,13 @@ function AddPost() {
 
   return (
     <div>
-      {!flag ? (
+      {/* {!flag ? (
         <CreateIcon onClick={switchAddMenu}/>
       ) : (
         <CancelIcon onClick={switchAddMenu} />
-      )}
-      {flag && <PostForm />}
+      )} */}
+      {/* {flag && <PostForm />} */}
+      <PostForm />
     </div>
   );
 }

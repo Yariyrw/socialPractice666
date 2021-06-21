@@ -3,7 +3,7 @@ import history from "../../routing/history";
 
 export const sendDataSignIn = async (value) => {
   try {
-    let result = await axios.post("https://social-practice13.herokuapp.com/sign-in", { data: value });
+    let result = await axios.post("https://navigator-practice.herokuapp.com/sign-in", { data: value });
     let response = await result;
     localStorage.setItem("user", response.data.dataUser);
     localStorage.setItem("token", response.data.webToken);

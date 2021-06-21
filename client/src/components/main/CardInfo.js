@@ -69,17 +69,15 @@ function CardInfo(props) {
               <div className={classes.list}>
                 <ol>
                   <li>Создавать посты</li>
-                  <li>Редактировать свои посты</li>
-                  <li>
-                    Удалить свои посты,если вы вдруг их перечитали,и стало очень
-                    стыдно
+                  <li>Просмотр постов других пользователей
+                    
                   </li>
                 </ol>
               </div>
             </Typography>
           </CardContent>
           <CardActions className={classes.exit}>
-            <CancelIcon onClick={props.menuClose} />
+            {/* <CancelIcon onClick={props.menuClose} /> */}
           </CardActions>
         </div>
       </Card>

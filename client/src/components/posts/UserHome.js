@@ -4,7 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import ExamplePost from "./user-bar/ExamplePost";
 import GlobalConfig from "./user-bar/globalConfig/GlobalConfig";
 import { queryPost } from "./queryPost";
-import AllMemberPost from "./allMemberPost/AllMemberPost";
+
 import ChatMain from '../chat/ChatMain';
 import '../responsive-design/user-bar.css';
 
@@ -40,7 +40,7 @@ function UserHome() {
         <UserBar />
 
         <AddPost className={'responsive-add_post'}/>
-        <AllMemberPost className={'responsive-search_member'}/>
+       
         {/* <ChatMain className='sss'/> */}
       </div>
     </div>

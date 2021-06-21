@@ -20,9 +20,9 @@ function IndexRouter () {
                     <Route path='/sign-up'>
                         <SignUp />
                     </Route>
-                    {/* <Route exact path='/'>
+                    <Route exact path='/'>
                         <Info />
-                    </Route> */}
+                    </Route>
                     <Route  path='/articles'>
                         <HomePage />
                     </Route>

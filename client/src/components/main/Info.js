@@ -50,7 +50,8 @@ function Info() {
           onClick={showMessage}
         />
       </div>
-      {notification && <CardInfo menuClose={closeMenu} />}
+      {/* {notification && <CardInfo menuClose={closeMenu} />} */}
+      <CardInfo  />
     </div>
   );
 }
