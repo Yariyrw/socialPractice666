@@ -125,13 +125,16 @@ function UserBar() {
         <div className={styles.member}>
         <AllMemberPost className={'responsive-search_member'}/>
         </div>
+        <div className={styles.member}>
+        <ExitToAppIcon onClick={exitPage} />
+        </div>
         </div>
         :<span>Профиль</span>}
         
       </div>
     </div>
     // <Card className={cx(styles.card, shadowStyles.root)}>
-    //   <ExitToAppIcon onClick={exitPage} />
+    //   
     //   <CardContent >
     //     {/* <Avatar className={styles.avatar} src={"https://i.pravatar.cc/300"} /> */}
 

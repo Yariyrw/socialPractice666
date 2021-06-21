@@ -43,13 +43,13 @@ function Info() {
 
   return (
     <div className={classes.root}>
-      <div className={classes.container}>
+      {/* <div className={classes.container}>
         <AddAlertIcon
           className={`${classes.alerts} ${!notification && "alerts"}`}
           style={{ display: notification && "none" }}
           onClick={showMessage}
         />
-      </div>
+      </div> */}
       {/* {notification && <CardInfo menuClose={closeMenu} />} */}
       <CardInfo  />
     </div>
